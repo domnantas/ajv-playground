@@ -1,0 +1,13 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			// There may be better ways to start debugger
+			"command": "npm start",
+			"name": "Debug TypeScript",
+			"request": "launch",
+			"sourceMaps": true,
+			"type": "node-terminal"
+		}
+	]
+}

@@ -45,10 +45,10 @@ console.log(
 console.log(
 	"invalid (should be false)",
 	validate({
-		itemsOrder: ["two", "one", "three"],
 		items: {
 			one: true,
 			two: true,
 		},
+		itemsOrder: ["two", "one", "three"],
 	})
 );

@@ -9,7 +9,7 @@ ajv.addKeyword({
 	code(cxt: KeywordCxt) {
 		const { data, schemaCode } = cxt;
 		// I need to figure out if `data` and `schemaCode` contain the same items
-		// Maybe by using difference() from Ramda
+		// That may be done by using difference() from Ramda
 		cxt.fail$data(
 			// I'm not sure what's the difference between `fail$data` and `fail`
 			_`console.log('codegen', ${data}, Object.keys(${schemaCode}))`
